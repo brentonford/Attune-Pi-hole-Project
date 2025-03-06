@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "99e4437a-e28c-421e-bf49-10fda73b502c", 
+    "key": "dockernode", 
+    "name": "Docker Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

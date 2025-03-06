@@ -1,0 +1,1 @@
+chown -v -R {dockerLinuxUser.user}:{dockerLinuxUser.user} /home/{dockerLinuxUser.user}/docker
