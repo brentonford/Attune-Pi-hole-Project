@@ -1,7 +1,7 @@
 {
     "externalUuid4": "64115cdf-d397-435d-94b8-28424676c453", 
-    "key": "dockerlinuxuser", 
-    "name": "Docker Linux  User", 
+    "key": "dockerusernonprivilege", 
+    "name": "Docker User: non privilege", 
     "showInPlan": true, 
     "type": "c.s.s.b.phv.LinOsCred"
 }

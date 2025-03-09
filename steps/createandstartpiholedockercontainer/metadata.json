@@ -5,7 +5,7 @@
     "interpreter": 1, 
     "key": "createandstartpiholedockercontainer", 
     "name": "Create and Start PiHole Docker Container", 
-    "osCredKey": "dockerlinuxuser", 
+    "osCredKey": "dockerusernonprivilege", 
     "serverKey": "dockernode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"

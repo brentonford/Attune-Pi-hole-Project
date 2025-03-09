@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": "stop", 
     "archiveKey": "piholedockercomposefile", 
-    "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
+    "deployPath": "/home/{dockerUserNonPrivilege.user}/docker/", 
     "enabled": true, 
     "externalUuid4": "ddf25680-0665-4437-bcda-538f1445d70b", 
     "key": "deploydockercomposefilepihole", 
@@ -11,17 +11,17 @@
     "makoParameters": [
         {
             "name": "timezone", 
-            "parameterKey": "timezone", 
+            "parameterKey": "linuxtimezone", 
             "parameterType": "c.s.s.b.phv.Text"
         }, 
         {
             "name": "user", 
-            "parameterKey": "dockerlinuxuser", 
+            "parameterKey": "dockerusernonprivilege", 
             "parameterType": "c.s.s.b.phv.LinOsCred"
         }
     ], 
     "name": "Deploy Docker Compose File - pihole", 
-    "osCredKey": "dockerlinuxuser", 
-    "serverKey": "linuxnode", 
+    "osCredKey": "dockerusernonprivilege", 
+    "serverKey": "dockernode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }

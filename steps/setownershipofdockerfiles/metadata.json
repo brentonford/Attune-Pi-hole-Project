@@ -5,7 +5,7 @@
     "interpreter": 1, 
     "key": "setownershipofdockerfiles", 
     "name": "Set Ownership of docker files", 
-    "osCredKey": "linuxuserroot", 
+    "osCredKey": "dockerusernonprivilege", 
     "serverKey": "dockernode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"

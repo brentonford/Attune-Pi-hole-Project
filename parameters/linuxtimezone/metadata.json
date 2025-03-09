@@ -1,7 +1,7 @@
 {
     "externalUuid4": "1c14a4bf-bddd-4f3f-be72-a9bfbb17f817", 
-    "key": "timezone", 
-    "name": "Time Zone", 
+    "key": "linuxtimezone", 
+    "name": "Linux Time Zone", 
     "showInPlan": true, 
     "type": "c.s.s.b.phv.Text"
 }
