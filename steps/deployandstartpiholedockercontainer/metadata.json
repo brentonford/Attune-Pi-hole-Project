@@ -10,9 +10,6 @@
             "stepKey": "deploydockercomposefilepihole"
         }, 
         {
-            "stepKey": "setownershipofdockerfiles"
-        }, 
-        {
             "stepKey": "createandstartpiholedockercontainer"
         }, 
         {

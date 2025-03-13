@@ -1,1 +1,11 @@
-curl -Is {dockerNode.ip}/admin/index.php | head -1
+isup=$(curl -Is {dockerNode.ip}/admin/login | head -1)
+
+echo $isup
+
+if ! echo $isup | grep -q "200"
+then
+    echo "Error: Pi-hole login page not found."
+    exit 1
+else
+    echo "Success: Pi-hole login page found."
+fi

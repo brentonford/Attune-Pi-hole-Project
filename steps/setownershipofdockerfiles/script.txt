@@ -1,1 +1,2 @@
-chown -v -R {dockerUserNonPrivilege.user}:{dockerUserNonPrivilege.user} /home/{dockerUserNonPrivilege.user}/docker
+chown -v -R {dockerUserNonPrivilege.user}:{dockerUserNonPrivilege.user} \
+    /home/{dockerUserNonPrivilege.user}/docker

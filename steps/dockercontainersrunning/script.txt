@@ -1,1 +1,10 @@
-docker ps
+containers=$(docker ps)
+    
+if ! echo $containers | grep -q "pihole"
+then
+    echo "Pi-hole container not found in Docker containers."
+    exit 1
+else
+    echo "Pi-hole container found in Docker containers."
+    echo $containers
+fi
